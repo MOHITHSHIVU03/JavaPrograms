@@ -12,7 +12,7 @@ public class FirstJavaProgram
         System.out.println("Test: "+con.getCatalog());
 
 
-        String query1 ="select * from data1";
+        String query1 ="select * from ";
         String query ="delete from data1 where name ='RamRaj'";
         Statement st = con.createStatement();
         st.executeUpdate(query);
